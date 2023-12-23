@@ -51,6 +51,7 @@ function clearGrid() {
   cells.forEach(cell => {
     cell.style.backgroundColor = 'white';
   });
+  toggleColor();
 }
 
 colorBtn.addEventListener("click", toggleColor);
